@@ -1,5 +1,12 @@
 const question = [
     {
+        question: "The goodwill that CSR activities generate can make it easier for corporations to conduct their business but is unlikely to affect the profitability of the firm. True or False? ",
+        answer: [
+            { Text: "True", correct: false},
+            { Text: "False", correct: true},
+        ]
+    },
+    {
         question: "The Mission of the Software & Information Industry Association and the bussiness Software Alliance is to?",
         answer: [
             { Text: "Protect the trade secrets of world’s largest software and hardware manufacturers.", correct: false},
@@ -153,6 +160,13 @@ const question = [
         ]
     },
     {
+        question: "If an employee acts in a manner contrary to corporate policy and their employee’s directions, the employer cannot be held responsible for these actions. True or False?",
+        answer: [
+            { Text: "True", correct: false},
+            { Text: "False", correct: true},
+       ]
+    },
+    {
         question: "A software development company develops a public website for the federal government. The website is dedicated to remediating threats of a pandemic based on detailed specifications provided by the customer. During final tests, the company discovers specification flaws that could potentially aggravate the effects of the pandemic. What should the company do to mitigate its risk associated with strict liability?",
         answer: [
             { Text: "Record the flaws as part of internal documentation", correct: false},
@@ -276,6 +290,60 @@ const question = [
             { Text: "Over 50 percent", correct: false},
             { Text: "About 40 percent", correct: true},
             { Text: "Less than 33 percent ", correct: false},
+       ]
+    },
+    {
+        question: "Approximately how many U.S. workers have reported worker or manager misconduct and then suffered some sort of retribution from their supervisor or negative reactions from their coworkers? ",
+        answer: [
+            { Text: "Less than 5.5 million", correct: false},
+            { Text: "Over 10 million", correct: false},
+            { Text: "ome 6.2 million", correct: true},
+            { Text: "About 8.7 million", correct: false},
+        ]
+    },
+    {
+        question: "A statement that highlights an organization’s key ethical issues and identifies the overarching values and principles that are important to the organization and its decision making. ",
+        answer: [
+            { Text: "Mission statement", correct: false},
+            { Text: "Code of ethics", correct: true},
+            { Text: "Vision statement", correct: false},
+            { Text: "Integrity statement", correct: false},
+       ]
+    },
+    {
+        question: "Which of the following is not a key goal of employee ethics training?",
+        answer: [
+            { Text: "Become familiar with various philosophers and how they dealt with ethical issues.", correct: true},
+            { Text: "Make employees more aware of the company’s code of ethics and how to apply it.", correct: false},
+            { Text: "Reduce the company’s liability in the event of legal action.", correct: false},
+            { Text: "Increase the percentage of employees who report incidents of misconduct.", correct: false},
+        ]
+    },
+    {
+        question: "",
+        answer: [
+            { Text: "", correct: false},
+            { Text: "", correct: false},
+            { Text: "", correct: false},
+            { Text: "", correct: false},
+       ]
+    },
+    {
+        question: "",
+        answer: [
+            { Text: "", correct: false},
+            { Text: "", correct: false},
+            { Text: "", correct: false},
+            { Text: "", correct: false},
+        ]
+    },
+    {
+        question: "",
+        answer: [
+            { Text: "", correct: false},
+            { Text: "", correct: false},
+            { Text: "", correct: false},
+            { Text: "", correct: false},
        ]
     },
     {
