@@ -25,6 +25,15 @@ const question = [
         ]
     },
     {
+        question: "A developer creates video games based on real war scenarios and designs characters that mimic real people from world events. The video game has content perceived as excessively violent and rewards players who inflict the most harm on other players' virtual characters. The developer knows that these are simulated acts that depict real war scenarios to create an immersive experience for players but is concerned about the impact on their moral character. Which ethical theory does this situation represent?",
+        answer: [
+            { Text: "Virtue", correct: true},
+            { Text: "Deontology ", correct: false},
+            { Text: "Care", correct: false},
+            { Text: "Consequentialism", correct: false},
+       ]
+    },
+    {
         question: "A statement that highlights an organization’s key ethical issues and identifies the overarching values and principles that are important to the organization and its decision making. ",
         answer: [
             { Text: "Morals", correct: false},
@@ -389,30 +398,57 @@ const question = [
         ]
     },
     {
-        question: "",
+        question: "A project team at an animal welfare agency is using predictive analytics to help take animals out of abusive environments. The algorithm the team designed has a false positive rate that is higher than zero, which means that some animals could be removed erroneously if the algorithm's recommendations are followed. The project owner understands that pets may wrongfully be removed from loving healthy homes but decides to use the algorithm anyway because it will happen only a small percentage of the time. Which ethical theory does this represent?",
         answer: [
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
+            { Text: "Deontology", correct: false},
+            { Text: "Virtue", correct: false},
+            { Text: "Relativism", correct: false},
+            { Text: "Consequentialism", correct: true},
        ]
     },
     {
-        question: "",
+        question: "An IT company that specializes in software development has an organizational structure that consists of a chief executive officer, chief ethics officer, chief finance officer, and chief operating officer. Which of these executives provides the company with vision and leadership in business conduct?",
         answer: [
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
+            { Text: "Chief executive officer", correct: false},
+            { Text: "Chief finance officer", correct: false},
+            { Text: "Chief operating office", correct: false},
+            { Text: "Chief ethics officer", correct: true},
        ]
     },
     {
-        question: "",
+        question: "A new tech startup in the U.S. is considering hiring a large group of workers to complete a new project. It has considered the pros and cons of hiring temporary foreign workers versus training full-time employees for this project. To lower costs, the company decides to hire H-1B workers. What is a potential risk the new company faces by hiring these H1-B workers?",
         answer: [
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
+            { Text: "Lack of employee loyalty", correct: true},
+            { Text: "Flexibility in employee wages", correct: false},
+            { Text: "Increased risk of lawsuits", correct: false},
+            { Text: "Decreased permanent staff", correct: false},
+       ]
+    },
+    {
+        question: "An IT manager implements security measures at the organization, network, application, and employee levels. Which approach to security is the manager using?",
+        answer: [
+            { Text: "On-premises", correct: false},
+            { Text: "Layered", correct: true},
+            { Text: "Endpoint", correct: false},
+            { Text: "Perimeter", correct: false},
+       ]
+    },
+    {
+        question: "A police department employee has access to data related to an ongoing investigation. A local politician whom the employee supports has come under investigation. The employee accesses the data relating to the investigation and provides the file to the politician anonymously. How should this behavior be classified?",
+        answer: [
+            { Text: "Industrial espionage", correct: false},
+            { Text: "Whistleblowing", correct: false},
+            { Text: "Corruption", correct: true},
+            { Text: "Nepotism", correct: false},
+       ]
+    },
+    {
+        question: "A new startup tech company plans to provide secure wireless access within its office for employees and other trusted visitors. The company has concerns about competitors eavesdropping or compromising the connections and obtaining unauthorized access to the company's intellectual property. The company is considering using Wireless Protected Access 2 (WPA2) to secure data in transit. Which protocol does this wireless protection implement?",
+        answer: [
+            { Text: "Transport Layer Security (TLS)", correct: false},
+            { Text: "Rivest-Shamir-Adleman (RSA)", correct: false},
+            { Text: "Advanced Encryption Standard (AES)", correct: true},
+            { Text: "Virtual private network (VPN)", correct: false},
        ]
     },
     {
