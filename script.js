@@ -452,12 +452,102 @@ const question = [
        ]
     },
     {
-        question: "",
+        question: "A social media user discovers that a former romantic partner posted humiliating photos of the two together without obtaining the social media user's permission. The social media user suffers severe emotional distress as a result. Which form of threat does this represent?",
         answer: [
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
+            { Text: "Doxing", correct: false},
+            { Text: "Cyberharassment", correct: true},
+            { Text: "Cyberstalking", correct: false},
+            { Text: "Swatting", correct: false},
+       ]
+    },
+    {
+        question: "A Federal Bureau of Investigation (FBI) agent monitors a telephone conversation between a 12-year-old child and the child's stepfather. The monitoring is part of a criminal investigation. A warrant was not obtained prior to commencement of the monitoring. Which law or regulation did the agent violate?",
+        answer: [
+            { Text: "Wiretap Act", correct: true},
+            { Text: "Foreign Intelligence Surveillance Act", correct: false},
+            { Text: "Gramm-Leach-Bliley Act", correct: false},
+            { Text: "USA PATRIOT Act", correct: false},
+       ]
+    },
+    {
+        question: "A U.S. company launched an e-commerce platform in the European Union (EU). The board of directors raised concerns about compliance with applicable privacy regulations and the collection of customer information. Which regulation applies to this scenario?",
+        answer: [
+            { Text: "Freedom of Information Act", correct: false},
+            { Text: "Electronic Communications Privacy Act", correct: false},
+            { Text: "EU Data Protection Directive", correct: false},
+            { Text: "General Data Protection Regulation", correct: true},
+       ]
+    },
+    {
+        question: "A social media website collected personal information about consumers when they subscribed to the service. Subscribers opted in or out before creating their online profiles. Which European Union Data Protection Directive did the website follow?",
+        answer: [
+            { Text: "Use", correct: false},
+            { Text: "Choice", correct: true},
+            { Text: "Correction", correct: false},
+            { Text: "Enforcement", correct: false},
+       ]
+    },
+    {
+        question: "A company is using software to track workforce operational activity. Management communicates that the data collected will be treated as sensitive. Administrative and technical security measures are put in place to protect employee data. These measures include periodically culling records that are no longer relevant. Which additional measure should be taken to safeguard employee data from misuse?",
+        answer: [
+            { Text: "Limit who can view employee data", correct: true},
+            { Text: "Allow employees to access their data", correct: false},
+            { Text: "Use monitoring data for performance assessments", correct: false},
+            { Text: "Involve employees in planning monitoring processes", correct: false},
+       ]
+    },
+    {
+        question: "What is the cause of the rise in computer-related security issues, particularly among small- and medium-sized businesses?",
+        answer: [
+            { Text: "Bring your own device policies", correct: true},
+            { Text: "Advanced persistent threats", correct: false},
+            { Text: "Confidentiality, integrity, and availability triad", correct: false},
+            { Text: "Managed security service providers", correct: false},
+       ]
+    },
+    {
+        question: "An attending physician at a local hospital receives an email with a link that appears to be from a neighboring clinic. When the physician clicks the link, computers throughout the hospital freeze, and patient information can no longer be accessed. A message appears demanding payment of five bitcoins within 48 hours to decrypt the hospital database and threatening that without payment, all information will be deleted. Which type of exploit is this?",
+        answer: [
+            { Text: "Ransomware", correct: true},
+            { Text: "Worm", correct: false},
+            { Text: "Phishing", correct: false},
+            { Text: "Spam", correct: false},
+       ]
+    },
+    {
+        question: "A government contractor is rebuilding a telecommunications network. One of the contractor's employees discovers that the company is participating in illegal and unethical acts to defraud the government. The employee considers filing a lawsuit against the company on behalf of the government. Which law protects the employee if the lawsuit is filed?",
+        answer: [
+            { Text: "Freedom of Information Act", correct: false},
+            { Text: "American Recovery and Reinvestment Act", correct: false},
+            { Text: "Fair Credit Reporting Act", correct: false},
+            { Text: "False Claims Act", correct: true},
+       ]
+    },
+    {
+        question: "A company is notified of a breach of its systems. An investigation reveals that although no financial information was taken, the customer records for all its customers, including names, email addresses, and passwords, may have been taken. Although it is uncertain whether the records were taken, evidence suggests that the intruders accessed the database containing the information. The investigation team indicates that, given six weeks, they will be able to identify what, if anything, has been taken. Which action should the company take?",
+        answer: [
+            { Text: "Notify all customers that there may have been a data breach", correct: true},
+            { Text: "Do not notify any customers of the breach, as it has not been confirmed", correct: false},
+            { Text: "Notify only high-value customers that a breach may have occurred", correct: false},
+            { Text: "Wait until confirmation, then notify only impacted customers of the breach", correct: false},
+       ]
+    },
+    {
+        question: "Before an IT employee transfers to a new job, the chief information officer (CIO) asks the employee to review a business proposal from the employee's future company. Which situation does this place the employee in?",
+        answer: [
+            { Text: "Fraud", correct: false},
+            { Text: "Conflict of interest", correct: true},
+            { Text: "Misrepresentation", correct: false},
+            { Text: "Bribery", correct: false},
+       ]
+    },
+    {
+        question: "A financial services company hires a consultant to help build its data analytics capabilities. The company and consultant have a binding agreement for a list of deliverables and a delivery schedule. The consultant completes the work but delivers it six weeks late. Which ethical problem is this consultant engaged in?",
+        answer: [
+            { Text: "Breach of contract", correct: true},
+            { Text: "Conflict of interest", correct: false},
+            { Text: "Misrepresentation", correct: false},
+            { Text: "Fraud", correct: false},
        ]
     },
     {
