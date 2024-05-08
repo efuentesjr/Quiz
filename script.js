@@ -18,10 +18,55 @@ const question = [
         ]
     },
     {
+        question: "A statement that highlights an organization’s key ethical issues and identifies the overarching values and principles that are important to the organization and its decision making. ",
+        answer: [
+            { Text: "Morals", correct: false},
+            { Text: "Code of ethics", correct: true},
+            { Text: "Virtuous", correct: false},
+            { Text: "Law", correct: false},
+        ]
+    },
+    {
+        question: "The moral corruption of people in power, which is often facilitated by a tendency for people to look the other way when their leaders act inappropriately.",
+        answer: [
+            { Text: "Morals", correct: false},
+            { Text: "Ethics", correct: false},
+            { Text: "Bribery", correct: false},
+            { Text: "Bathsheba syndrome", correct: true},
+        ]
+    },
+    {
+        question: "A senior-level manager who provides an organization with vision and leadership in the area of business conduct.",
+        answer: [
+            { Text: "Corporate Ethics Officer", correct: true},
+            { Text: "Chief Executive Officer", correct: false},
+            { Text: "Corporate Technology Officer", correct: false},
+            { Text: "Chief Information Officer", correct: false},
+        ]
+    },
+    {
         question: "",
         answer: [
             { Text: "", correct: false},
-            { Text: "", correct: true},
+            { Text: "", correct: false},
+            { Text: "", correct: false},
+            { Text: "", correct: false},
+        ]
+    },
+    {
+        question: "The concept that an organization should act ethically by taking responsibility for the impact of its actions on its shareholders, consumers, employees, community, environment, and suppliers.",
+        answer: [
+            { Text: "Corporate Social Responsability (CSR)", correct: true},
+            { Text: "Integrity", correct: false},
+            { Text: "Social Audit", correct: false},
+            { Text: "Law", correct: false},
+        ]
+    },
+    {
+        question: "A code of behavior that is defined by the group to which an individual belongs.",
+        answer: [
+            { Text: "", correct: false},
+            { Text: "", correct: false},
             { Text: "", correct: false},
             { Text: "", correct: false},
         ]
@@ -30,16 +75,7 @@ const question = [
         question: "",
         answer: [
             { Text: "", correct: false},
-            { Text: "", correct: true},
             { Text: "", correct: false},
-            { Text: "", correct: false},
-        ]
-    },
-    {
-        question: "",
-        answer: [
-            { Text: "", correct: false},
-            { Text: "", correct: true},
             { Text: "", correct: false},
             { Text: "", correct: false},
         ]
@@ -48,16 +84,7 @@ const question = [
         question: "",
         answer: [
             { Text: "", correct: false},
-            { Text: "", correct: true},
             { Text: "", correct: false},
-            { Text: "", correct: false},
-        ]
-    },
-    {
-        question: "",
-        answer: [
-            { Text: "", correct: false},
-            { Text: "", correct: true},
             { Text: "", correct: false},
             { Text: "", correct: false},
         ]
@@ -66,16 +93,7 @@ const question = [
         question: "",
         answer: [
             { Text: "", correct: false},
-            { Text: "", correct: true},
             { Text: "", correct: false},
-            { Text: "", correct: false},
-        ]
-    },
-    {
-        question: "",
-        answer: [
-            { Text: "", correct: false},
-            { Text: "", correct: true},
             { Text: "", correct: false},
             { Text: "", correct: false},
         ]
@@ -84,129 +102,11 @@ const question = [
         question: "",
         answer: [
             { Text: "", correct: false},
-            { Text: "", correct: true},
             { Text: "", correct: false},
-            { Text: "", correct: false},
-        ]
-    },
-    {
-        question: "",
-        answer: [
-            { Text: "", correct: false},
-            { Text: "", correct: true},
             { Text: "", correct: false},
             { Text: "", correct: false},
         ]
     },
-    {
-        question: "",
-        answer: [
-            { Text: "", correct: false},
-            { Text: "", correct: true},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-        ]
-    },
-    {
-        question: "",
-        answer: [
-            { Text: "", correct: false},
-            { Text: "", correct: true},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-        ]
-    },
-    {
-        question: "",
-        answer: [
-            { Text: "", correct: false},
-            { Text: "", correct: true},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-        ]
-    },
-    {
-        question: "",
-        answer: [
-            { Text: "", correct: false},
-            { Text: "", correct: true},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-        ]
-    },
-    {
-        question: "",
-        answer: [
-            { Text: "", correct: false},
-            { Text: "", correct: true},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-        ]
-    },
-    {
-        question: "",
-        answer: [
-            { Text: "", correct: false},
-            { Text: "", correct: true},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-        ]
-    },
-    {
-        question: "",
-        answer: [
-            { Text: "", correct: false},
-            { Text: "", correct: true},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-        ]
-    },
-    {
-        question: "",
-        answer: [
-            { Text: "", correct: false},
-            { Text: "", correct: true},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-        ]
-    },
-    {
-        question: "",
-        answer: [
-            { Text: "", correct: false},
-            { Text: "", correct: true},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-        ]
-    },
-    {
-        question: "",
-        answer: [
-            { Text: "", correct: false},
-            { Text: "", correct: true},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-        ]
-    },
-    {
-        question: "",
-        answer: [
-            { Text: "", correct: false},
-            { Text: "", correct: true},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-        ]
-    },
-    {
-        question: "",
-        answer: [
-            { Text: "", correct: false},
-            { Text: "", correct: true},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-        ]
-    },
-    
 ];
 
 const questionElement = document.getElementById("question");
