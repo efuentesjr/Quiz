@@ -551,12 +551,93 @@ const question = [
        ]
     },
     {
-        question: "",
+        question: "A software sales company is currently struggling with low sales. The company is aware that one of its competitor's senior sales managers is dissatisfied with the competitor due to having been overlooked for a promotion to the position of a vice president (VP). The company approaches the sales manager and offers them a position as VP for sales on the condition of bringing the manager's existing customer list and contacts to the new role. The sales manager is bound by a noncompete clause. Which type of decision-making process did the company follow?",
         answer: [
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
+            { Text: "Unethical and illegal", correct: true},
+            { Text: "Ethical and legal", correct: false},
+            { Text: "Ethical and illegal", correct: false},
+            { Text: "Unethical and legal", correct: false},
+       ]
+    },
+    {
+        question: "A municipality decides to use the data it has on household water usage to build an algorithm that can identify welfare fraud. This would result in a list of potential fraudsters that could be used to make welfare decisions. Although the municipality is the rightful owner and processor of the data, citizens have raised privacy issues with the application. The citizens object that they have no way of knowing whether they are on the list and have no possibility of redress if they are. Which decision-making process did the municipality follow?",
+        answer: [
+            { Text: "Legal and ethical", correct: false},
+            { Text: "Illegal and unethical", correct: false},
+            { Text: "Legal but unethical", correct: true},
+            { Text: "Illegal but ethical", correct: false},
+       ]
+    },
+    {
+        question: "The marketing department of a financial services institution asks data scientists to build a consumer profile based on transaction data. Although company lawyers approve the request to explicitly signal customers with potential gambling addiction problems, the data scientists refuse to build the profiles. What describes this request?",
+        answer: [
+            { Text: "Ethical and illegal", correct: false},
+            { Text: "Ethical and legal", correct: false},
+            { Text: "Unethical and legal", correct: true},
+            { Text: "Unethical and illegal", correct: false},
+       ]
+    },
+    {
+        question: "A police department employee has access to data related to an ongoing investigation. A local politician whom the employee supports has come under investigation. The employee accesses the data relating to the investigation and provides the file to the politician anonymously. How should this behavior be classified?",
+        answer: [
+            { Text: "Whistleblowing", correct: false},
+            { Text: "Industrial espionage", correct: false},
+            { Text: "Corruption", correct: true},
+            { Text: "Nepotism", correct: false},
+       ]
+    },
+    {
+        question: "An IT manager implements security measures at the organization, network, application, and employee levels. Which approach to security is the manager using?",
+        answer: [
+            { Text: "Perimeter", correct: false},
+            { Text: "Endpoint", correct: false},
+            { Text: "Layered", correct: true},
+            { Text: "Fencing", correct: false},
+       ]
+    },
+    {
+        question: "An organization enters customer information in different formats, styles, and varieties into a database. Two customers placed an order on January 12, 2022, but one customer's purchase date is entered as 01/12/22, whereas the other's is entered as 12/01/22. Which aspect of data could be negatively impacted by the format issue?",
+        answer: [
+            { Text: "Accuracy", correct: true,
+            { Text: "Governance", correct: false},
+            { Text: "Quality", correct: false},
+            { Text: "Regulation", correct: false},
+       ]
+    },
+    {
+        question: "An organization is evaluating potential harm to its networks to ensure data is stored accurately and securely from both internal and external threats. What is the process the organization is following?",
+        answer: [
+            { Text: "Intrusion detection", correct: false},
+            { Text: "Security policy", correct: false},
+            { Text: "Risk assessment", correct: true},
+            { Text: "Security audit", correct: false},
+       ]
+    },
+    {
+        question: "A patient visited a primary care doctor for headaches and was referred to a specialist clinic that deals with neuroimaging. After visiting the specialist, the patient receives results that do not seem to match their symptoms. After calling the clinic, the patient discovers that their electronic health records (EHRs) from the primary care provider were mismatched with another patient’s records when the patient visited the specialist. What is the cause of the mismatch?",
+        answer: [
+            { Text: "The lack of a nationwide unique patient identifier impedes error-free matching of an individual’s files.", correct: true},
+            { Text: "The standard matching software uses poorly trained machine learning models that lead to high error rates.", correct: false},
+            { Text: "Hospitals and clinics are legally barred from transferring patient data from one facility to another.", correct: false},
+            { Text: "Inconsistent self-reporting by patients leads to incorrect data and increased difficulty aligning data.", correct: false},
+       ]
+    },
+    {
+        question: "Which legislation protects social networking companies from defamation lawsuits in connection with user postings that appear on the companies' sites?",
+        answer: [
+            { Text: "General Data Protection Regulation (GDPR)", correct: false},
+            { Text: "Gramm-Leach-Bliley Act (GLBA)", correct: false},
+            { Text: "Communications Decency Act (CDA)", correct: true},
+            { Text: "Electronic Communications Privacy Act (ECPA)", correct: false},
+       ]
+    },
+    {
+        question: "The United Nations Security Council (UNSC) is briefed on a cyberattack in which hackers were able to breach system integrity, gain access to sensitive data, and manipulate the data without being noticed. What should the UNSC use to be alerted to these threats in the future?",
+        answer: [
+            { Text: "Proxy servers", correct: false},
+            { Text: "Transport Layer Security (TLS)", correct: false},
+            { Text: "Improved authentication methods", correct: false},
+            { Text: "Intrusion Detection System (IDS)", correct: true},
        ]
     },
     {
