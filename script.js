@@ -598,7 +598,7 @@ const question = [
     {
         question: "An organization enters customer information in different formats, styles, and varieties into a database. Two customers placed an order on January 12, 2022, but one customer's purchase date is entered as 01/12/22, whereas the other's is entered as 12/01/22. Which aspect of data could be negatively impacted by the format issue?",
         answer: [
-            { Text: "Accuracy", correct: true,
+            { Text: "Accuracy", correct: true},
             { Text: "Governance", correct: false},
             { Text: "Quality", correct: false},
             { Text: "Regulation", correct: false},
