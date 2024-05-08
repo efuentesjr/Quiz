@@ -320,21 +320,72 @@ const question = [
         ]
     },
     {
-        question: "",
+        question: "Identifying the stakeholders and their positions on an issue is a part of which decision-making step?",
         answer: [
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
+            { Text: "Define the problem", correct: true},
+            { Text: "Review the applicable guidelines, policies, and laws", correct: false},
+            { Text: "Choose the best option", correct: false},
+            { Text: "Identify and evaluate options", correct: false},
        ]
     },
     {
-        question: "",
+        question: "If you find yourself rationalizing a decision with the statement “Well, our competitors are doing something far worse”—what action should you not take? ",
         answer: [
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
+            { Text: "Reconsider your options.", correct: false},
+            { Text: "Realize you are about to make a decision that you will find difficult to justify to others.", correct: false},
+            { Text: "Drop this option, and implement the same policy as your competitors.", correct: true},
+            { Text: "Seek input and advice from others.", correct: false},
+        ]
+    },
+    {
+        question: "Important decisions with strong ethical implications are too often left to the technical experts; general business managers must assume greater responsibility for these decisions. True or False? ",
+        answer: [
+            { Text: "True", correct: true},
+            { Text: "False", correct: false},
+       ]
+    },
+    {
+        question: "Professional code of ethics are the principles and core values that are essential to the work of a particular occupational group.",
+        answer: [
+            { Text: "True", correct: true},
+            { Text: "False", correct: false},
+
+        ]
+    },
+    {
+        question: "A researcher develops a new model based on artificial intelligence (AI) to assist with tracking the movement of foreign nationals into and out of the United States. Due to ongoing civil unrest in Middle Eastern countries, the researcher wants to ensure that the nationality marker within the data set is not affected by AI bias. Which concept should be applied to the data set to reduce or eliminate AI bias?",
+        answer: [
+            { Text: "Statistical parity", correct: false},
+            { Text: "Protected class", correct: false},
+            { Text: "Equal accuracy", correct: false},
+            { Text: "Protected attribute", correct: true},
+       ]
+    },
+    {
+        question: "A data analytics company introduces a new artificial intelligence (AI) platform to help amusement park operators understand visitor preferences for rides, shows, and other entertainment. The analytics company tries to reduce bias in the system by ensuring that any ingested data is transformed to remove correlations between the target and a protected attribute. hich stage of the bias mitigation process is the company in? ",
+        answer: [
+            { Text: "Preprocessing", correct: true},
+            { Text: "Multiprocessing", correct: false},
+            { Text: "Inprocessing", correct: false},
+            { Text: "Postprocessing", correct: false},
+        ]
+    },
+    {
+        question: "An auditor tries to test the existence of bias within an artificial intelligence (AI) system. The auditor needs to determine if the model's predictions are equivalent across each protected class. What is the auditor testing for based on a fairness metric?",
+        answer: [
+            { Text: "Equal representation", correct: true},
+            { Text: "Equal error", correct: false},
+            { Text: "Data disparity", correct: false},
+            { Text: "Protected features", correct: false},
+       ]
+    },
+    {
+        question: "A homeowners' association (HOA) installs license plate readers after an increase in reported crime in the neighborhood. Two domestic workers petition the HOA, requesting that their data be deleted to protect their privacy. The HOA considers this but denies their request, citing the greater need for security protection for residents. Which ethical theory does this represent?",
+        answer: [
+            { Text: "Deontology", correct: false},
+            { Text: "Consequentialism", correct: true},
+            { Text: "Virtue", correct: false},
+            { Text: "Relativism", correct: false},
         ]
     },
     {
@@ -353,7 +404,34 @@ const question = [
             { Text: "", correct: false},
             { Text: "", correct: false},
             { Text: "", correct: false},
-        ]
+       ]
+    },
+    {
+        question: "",
+        answer: [
+            { Text: "", correct: false},
+            { Text: "", correct: false},
+            { Text: "", correct: false},
+            { Text: "", correct: false},
+       ]
+    },
+    {
+        question: "",
+        answer: [
+            { Text: "", correct: false},
+            { Text: "", correct: false},
+            { Text: "", correct: false},
+            { Text: "", correct: false},
+       ]
+    },
+    {
+        question: "",
+        answer: [
+            { Text: "", correct: false},
+            { Text: "", correct: false},
+            { Text: "", correct: false},
+            { Text: "", correct: false},
+       ]
     },
     {
         question: "",
