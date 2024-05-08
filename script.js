@@ -65,37 +65,37 @@ const question = [
     {
         question: "A code of behavior that is defined by the group to which an individual belongs.",
         answer: [
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
+            { Text: "Vice", correct: false},
+            { Text: "Ethics", correct: true},
+            { Text: "Morals", correct: false},
+            { Text: "Virtue", correct: false},
         ]
     },
     {
-        question: "",
+        question: "Adherence to a personal code of principles.",
         answer: [
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
+            { Text: "Vice", correct: false},
+            { Text: "Audits", correct: false},
+            { Text: "Integrity", correct: true},
+            { Text: "Bathsheba Syndrome", correct: false},
         ]
     },
     {
-        question: "",
+        question: "A system of rules that tells us what we can and cannot do.",
         answer: [
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
+            { Text: "Code of Conduct", correct: false},
+            { Text: "Bathsheba Syndrome", correct: false},
+            { Text: "Law", correct: true},
+            { Text: "Stakeholder", correct: false},
         ]
     },
     {
-        question: "",
+        question: "Two programmers disagree about which philosophical theory is best suited for their autonomous vehicles. One programmer suggests their vehicle should always choose the greatest good for the greatest number of people.",
         answer: [
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
+            { Text: "Virtue ethics", correct: false},
+            { Text: "Deontology", correct: false},
+            { Text: "Utilitarianism", correct: false},
+            { Text: "Kantian ethics", correct: false},
         ]
     },
     {
@@ -141,7 +141,6 @@ function showQuestion(){
         button.addEventListener("click", selectAnswer);
     });
 }
-
 
 function resetState(){
     nextButton.style.display = "none";
