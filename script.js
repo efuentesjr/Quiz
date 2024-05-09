@@ -1,6 +1,6 @@
 const question = [
     {
-        question: "The goodwill that CSR activities generate can make it easier for corporations to conduct their business but is unlikely to affect the profitability of the firm. True or False? ",
+        question: "The goodwill that CSR activities generally can make it easier for corporations to conduct their business but is unlikely to affect the profitability of the firm. True or False? ",
         answer: [
             { Text: "True", correct: false},
             { Text: "False", correct: true},
@@ -66,7 +66,7 @@ const question = [
             { Text: "Whistleblowing", correct: true},
             { Text: "Filing lawsuits", correct: false},
             { Text: "Insubordination", correct: false},
-            { Text: "otifying police", correct: false},
+            { Text: "Notifying police", correct: false},
         ]
     },
     {
