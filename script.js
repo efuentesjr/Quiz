@@ -1,126 +1,11 @@
 const question = [
     {
-        question: "The goodwill that CSR activities generally can make it easier for corporations to conduct their business but is unlikely to affect the profitability of the firm. True or False? ",
+        question: "Which major U.S. regulation governs the collection, disclosure, and protection of consumers’ personally identifiable information (PII) data by companies that provide financial products and services?",
         answer: [
-            { Text: "True", correct: false},
-            { Text: "False", correct: true},
-        ]
-    },
-    {
-        question: "The Mission of the Software & Information Industry Association and the bussiness Software Alliance is to?",
-        answer: [
-            { Text: "Protect the trade secrets of world’s largest software and hardware manufacturers.", correct: false},
-            { Text: "Encourage disgruntled employees to report misdeeds by their employers.", correct: false},
-            { Text: "Stop the unauthorized copying of software produced by its members.", correct: true},
-            { Text: "Provide recommendations on how to develop software code that is unhackable.", correct: false},
-        ]
-    },
-    {
-        question: "This occurs when a party fails to perform certain express or implied obligations, which impairs or destroys the very essence of a contract.",
-        answer: [
-            { Text: "Fraud", correct: false},
-            { Text: "Material breach of contract", correct: true},
-            { Text: "Breach of contract", correct: false},
-            { Text: "Misrepresentation", correct: false},
-        ]
-    },
-    {
-        question: "A developer creates video games based on real war scenarios and designs characters that mimic real people from world events. The video game has content perceived as excessively violent and rewards players who inflict the most harm on other players' virtual characters. The developer knows that these are simulated acts that depict real war scenarios to create an immersive experience for players but is concerned about the impact on their moral character. Which ethical theory does this situation represent?",
-        answer: [
-            { Text: "Virtue", correct: true},
-            { Text: "Deontology ", correct: false},
-            { Text: "Care", correct: false},
-            { Text: "Consequentialism", correct: false},
-       ]
-    },
-    {
-        question: "A statement that highlights an organization’s key ethical issues and identifies the overarching values and principles that are important to the organization and its decision making. ",
-        answer: [
-            { Text: "Morals", correct: false},
-            { Text: "Code of ethics", correct: true},
-            { Text: "Virtuous", correct: false},
-            { Text: "Law", correct: false},
-        ]
-    },
-    {
-        question: "The moral corruption of people in power, which is often facilitated by a tendency for people to look the other way when their leaders act inappropriately.",
-        answer: [
-            { Text: "Morals", correct: false},
-            { Text: "Ethics", correct: false},
-            { Text: "Bribery", correct: false},
-            { Text: "Bathsheba syndrome", correct: true},
-        ]
-    },
-    {
-        question: "A senior-level manager who provides an organization with vision and leadership in the area of business conduct.",
-        answer: [
-            { Text: "Corporate Ethics Officer", correct: true},
-            { Text: "Chief Executive Officer", correct: false},
-            { Text: "Corporate Technology Officer", correct: false},
-            { Text: "Chief Information Officer", correct: false},
-        ]
-    },
-    {
-        question: "An employee of a large tech company notices that the company is not taking the proper steps to protect consumer information. The employee has raised concerns to management multiple times but has been ignored. The employee finds that the company is harming the public interest and takes steps to attract public attention. Which action is the employee demonstrating?",
-        answer: [
-            { Text: "Whistleblowing", correct: true},
-            { Text: "Filing lawsuits", correct: false},
-            { Text: "Insubordination", correct: false},
-            { Text: "Notifying police", correct: false},
-        ]
-    },
-    {
-        question: "The concept that an organization should act ethically by taking responsibility for the impact of its actions on its shareholders, consumers, employees, community, environment, and suppliers.",
-        answer: [
-            { Text: "Corporate Social Responsability (CSR)", correct: true},
-            { Text: "Integrity", correct: false},
-            { Text: "Social Audit", correct: false},
-            { Text: "Law", correct: false},
-        ]
-    },
-    {
-        question: "A code of behavior that is defined by the group to which an individual belongs.",
-        answer: [
-            { Text: "Vice", correct: false},
-            { Text: "Ethics", correct: true},
-            { Text: "Morals", correct: false},
-            { Text: "Virtue", correct: false},
-        ]
-    },
-    {
-        question: "Adherence to a personal code of principles.",
-        answer: [
-            { Text: "Vice", correct: false},
-            { Text: "Audits", correct: false},
-            { Text: "Integrity", correct: true},
-            { Text: "Bathsheba Syndrome", correct: false},
-        ]
-    },
-    {
-        question: "A system of rules that tells us what we can and cannot do.",
-        answer: [
-            { Text: "Code of Conduct", correct: false},
-            { Text: "Bathsheba Syndrome", correct: false},
-            { Text: "Law", correct: true},
-            { Text: "Stakeholder", correct: false},
-        ]
-    },
-    {
-        question: "Two programmers disagree about which philosophical theory is best suited for their autonomous vehicles. One programmer suggests their vehicle should always choose the greatest good for the greatest number of people.",
-        answer: [
-            { Text: "Virtue Ethics", correct: false},
-            { Text: "Deontology", correct: false},
-            { Text: "Utilitarianism", correct: true},
-            { Text: "Kantian Ethics", correct: false},
-        ]
-    },
-    {
-        question: "The personal principles upon which an individual bases his or her decisions about what is right and what is wrong.",
-        answer: [
-            { Text: "Sportsmanship", correct: false},
-            { Text: "Code of Honor", correct: false},
-            { Text: "Kantian Ethics", correct: false},
-            { Text: "Morals", correct: true},
+            { Text: "Federal Information Security Management Act ", correct: false},
+            { Text: "Sarbanes-Oxley Act ", correct: false},
+            { Text: "Payment Card Industry Data Security Standard ", correct: false},
+            { Text: "Gramm-Leach-Bliley Act ", correct: true},
         ]
     },
     {
@@ -640,6 +525,131 @@ const question = [
             { Text: "Intrusion Detection System (IDS)", correct: true},
        ]
     },
+    {
+        question: "The goodwill that CSR activities generally can make it easier for corporations to conduct their business but is unlikely to affect the profitability of the firm. True or False? ",
+        answer: [
+            { Text: "True", correct: false},
+            { Text: "False", correct: true},
+        ]
+    },
+    {
+        question: "The Mission of the Software & Information Industry Association and the bussiness Software Alliance is to?",
+        answer: [
+            { Text: "Protect the trade secrets of world’s largest software and hardware manufacturers.", correct: false},
+            { Text: "Encourage disgruntled employees to report misdeeds by their employers.", correct: false},
+            { Text: "Stop the unauthorized copying of software produced by its members.", correct: true},
+            { Text: "Provide recommendations on how to develop software code that is unhackable.", correct: false},
+        ]
+    },
+    {
+        question: "This occurs when a party fails to perform certain express or implied obligations, which impairs or destroys the very essence of a contract.",
+        answer: [
+            { Text: "Fraud", correct: false},
+            { Text: "Material breach of contract", correct: true},
+            { Text: "Breach of contract", correct: false},
+            { Text: "Misrepresentation", correct: false},
+        ]
+    },
+    {
+        question: "A developer creates video games based on real war scenarios and designs characters that mimic real people from world events. The video game has content perceived as excessively violent and rewards players who inflict the most harm on other players' virtual characters. The developer knows that these are simulated acts that depict real war scenarios to create an immersive experience for players but is concerned about the impact on their moral character. Which ethical theory does this situation represent?",
+        answer: [
+            { Text: "Virtue", correct: true},
+            { Text: "Deontology ", correct: false},
+            { Text: "Care", correct: false},
+            { Text: "Consequentialism", correct: false},
+       ]
+    },
+    {
+        question: "A statement that highlights an organization’s key ethical issues and identifies the overarching values and principles that are important to the organization and its decision making. ",
+        answer: [
+            { Text: "Morals", correct: false},
+            { Text: "Code of ethics", correct: true},
+            { Text: "Virtuous", correct: false},
+            { Text: "Law", correct: false},
+        ]
+    },
+    {
+        question: "The moral corruption of people in power, which is often facilitated by a tendency for people to look the other way when their leaders act inappropriately.",
+        answer: [
+            { Text: "Morals", correct: false},
+            { Text: "Ethics", correct: false},
+            { Text: "Bribery", correct: false},
+            { Text: "Bathsheba syndrome", correct: true},
+        ]
+    },
+    {
+        question: "A senior-level manager who provides an organization with vision and leadership in the area of business conduct.",
+        answer: [
+            { Text: "Corporate Ethics Officer", correct: true},
+            { Text: "Chief Executive Officer", correct: false},
+            { Text: "Corporate Technology Officer", correct: false},
+            { Text: "Chief Information Officer", correct: false},
+        ]
+    },
+    {
+        question: "An employee of a large tech company notices that the company is not taking the proper steps to protect consumer information. The employee has raised concerns to management multiple times but has been ignored. The employee finds that the company is harming the public interest and takes steps to attract public attention. Which action is the employee demonstrating?",
+        answer: [
+            { Text: "Whistleblowing", correct: true},
+            { Text: "Filing lawsuits", correct: false},
+            { Text: "Insubordination", correct: false},
+            { Text: "Notifying police", correct: false},
+        ]
+    },
+    {
+        question: "The concept that an organization should act ethically by taking responsibility for the impact of its actions on its shareholders, consumers, employees, community, environment, and suppliers.",
+        answer: [
+            { Text: "Corporate Social Responsability (CSR)", correct: true},
+            { Text: "Integrity", correct: false},
+            { Text: "Social Audit", correct: false},
+            { Text: "Law", correct: false},
+        ]
+    },
+    {
+        question: "A code of behavior that is defined by the group to which an individual belongs.",
+        answer: [
+            { Text: "Vice", correct: false},
+            { Text: "Ethics", correct: true},
+            { Text: "Morals", correct: false},
+            { Text: "Virtue", correct: false},
+        ]
+    },
+    {
+        question: "Adherence to a personal code of principles.",
+        answer: [
+            { Text: "Vice", correct: false},
+            { Text: "Audits", correct: false},
+            { Text: "Integrity", correct: true},
+            { Text: "Bathsheba Syndrome", correct: false},
+        ]
+    },
+    {
+        question: "A system of rules that tells us what we can and cannot do.",
+        answer: [
+            { Text: "Code of Conduct", correct: false},
+            { Text: "Bathsheba Syndrome", correct: false},
+            { Text: "Law", correct: true},
+            { Text: "Stakeholder", correct: false},
+        ]
+    },
+    {
+        question: "Two programmers disagree about which philosophical theory is best suited for their autonomous vehicles. One programmer suggests their vehicle should always choose the greatest good for the greatest number of people.",
+        answer: [
+            { Text: "Virtue Ethics", correct: false},
+            { Text: "Deontology", correct: false},
+            { Text: "Utilitarianism", correct: true},
+            { Text: "Kantian Ethics", correct: false},
+        ]
+    },
+    {
+        question: "The personal principles upon which an individual bases his or her decisions about what is right and what is wrong.",
+        answer: [
+            { Text: "Sportsmanship", correct: false},
+            { Text: "Code of Honor", correct: false},
+            { Text: "Kantian Ethics", correct: false},
+            { Text: "Morals", correct: true},
+        ]
+    },
+
     {
         question: "",
         answer: [
