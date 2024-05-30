@@ -26,12 +26,38 @@ const question = [
        ]    
     },
     {
-        question: "",
+        question: "Each section of a pie chart corresponds to a category of data. True or False? ",
         answer: [
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
+            { Text: "True", correct: true},
+            { Text: "False", correct: false},
+       ]
+    },
+    {
+        question: "When creating a pie chart, the percentages for each category are calculated from the data.",
+        answer: [
+            { Text: "True", correct: true},
+            { Text: "False", correct: false},
+       ]
+    },
+    {
+        question: "The sum of all the percents in a pie chart add up to 100% or close to it because of rounding. True or False?",
+        answer: [
+            { Text: "True", correct: true},
+            { Text: "False", correct: false},
+       ]
+    },
+    {
+        question: "The height of each bar in a bar chart is determined by the number of values in the category for that bar. True or false?",
+        answer: [
+            { Text: "True", correct: true},
+            { Text: "False", correct: false},
+       ]
+    },
+    {
+        question: "When constructing a bar chart, it is not necessary to include all of the data collected. True or false?",
+        answer: [
+            { Text: "True", correct: true},
+            { Text: "False", correct: false},
        ]
     },
     {
