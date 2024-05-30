@@ -56,8 +56,8 @@ const question = [
     {
         question: "When constructing a bar chart, it is not necessary to include all of the data collected. True or false?",
         answer: [
-            { Text: "True", correct: true},
-            { Text: "False", correct: false},
+            { Text: "True", correct: false},
+            { Text: "False", correct: true},
        ]
     },
     {
