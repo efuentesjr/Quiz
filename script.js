@@ -61,6 +61,48 @@ const question = [
        ]
     },
     {
+        question: "Histogram",
+        answer: [
+            { Text: "displays frequencies (i.e., counts) or relative frequencies for categorical data", correct: false},
+            { Text: "displays frequencies or relative frequencies for quantitative data", correct: true},
+
+       ]
+    },
+    {
+        question: "Bar Chart",
+        answer: [
+            { Text: "displays frequencies (i.e., counts) or relative frequencies for categorical data", correct: true},
+            { Text: "displays frequencies or relative frequencies for quantitative data", correct: false},
+       ]
+    },
+    {
+        question: "",
+        answer: [
+            { Text: "", correct: false},
+            { Text: "", correct: false},
+            { Text: "", correct: false},
+            { Text: "", correct: false},
+       ]
+    },
+    {
+        question: "",
+        answer: [
+            { Text: "", correct: false},
+            { Text: "", correct: false},
+            { Text: "", correct: false},
+            { Text: "", correct: false},
+       ]
+    },
+    {
+        question: "",
+        answer: [
+            { Text: "", correct: false},
+            { Text: "", correct: false},
+            { Text: "", correct: false},
+            { Text: "", correct: false},
+       ]
+    },
+    {
         question: "",
         answer: [
             { Text: "", correct: false},
