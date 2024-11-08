@@ -76,30 +76,67 @@ const question = [
        ]
     },
     {
-        question: "Numerical Summary",
+        question: "Which measure of center applies best to skewed distribution",
         answer: [
-            { Text: "", correct: false},
+            { Text: "Median", correct: true},
+            { Text: "Mean", correct: false},
+            { Text: "Standard deviation", correct: false},
+       ]
+    },
+    {
+        question: "Outliers do not often affect the mean measure of center",
+        answer: [
+            { Text: "True", correct: false},
+            { Text: "False", correct: true},
+       ]
+    },
+    {
+        question: "Mode is a measurement not often affected by outliers",
+        answer: [
+            { Text: "True", correct: true},
+            { Text: "False", correct: false},
+       ]
+    },
+    {
+        question: "Outliers do not often affect the mean measure of center.",
+        answer: [
+            { Text: "True", correct: false},
+            { Text: "False", correct: true},
+       ]
+    },
+    {
+        question: "Which measure of center applies best to skewed distribution?",
+        answer: [
+            { Text: "Median", correct: false},
             { Text: "", correct: false},
             { Text: "", correct: false},
             { Text: "", correct: false},
        ]
     },
     {
-        question: "",
+        question: "Central tendancies",
         answer: [
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
+            { Text: "Mean, median and mode", correct: true},
        ]
     },
     {
-        question: "",
+        question: "Mean",
         answer: [
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
-            { Text: "", correct: false},
+            { Text: "Average", correct: true},
+       ]
+    },
+    {
+        question: "Median",
+        answer: [
+            { Text: "The halfway point of a set of values, an equal number of values fall below and above.", correct: false},
+            { Text: "True", correct: true},
+       ]
+    },
+    {
+        question: "Stem Plot",
+        answer: [
+            { Text: "A visual reprsentation of data in which individual data points ", correct: false},
+            { Text: "   **", correct: false},
        ]
     },
     {
